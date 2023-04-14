@@ -6,11 +6,10 @@ import Features from "../Components/pages/Features";
 import Solution from "../Components/pages/Solution";
 import About from "../Components/pages/About";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
-    // errorElement: <ErrorPage></ErrorPage>,
+
     element: <Main></Main>,
     children: [
       {
@@ -29,14 +28,7 @@ const router = createBrowserRouter([
         path: "/solution",
         element: <Solution />,
       },
-      // {
-      //   path: "/login",
-      //   element: <SignIn />,
-      // },
-      // {
-      //   path: "/register",
-      //   element: <SignUp />,
-      // },
+      
     ],
   },
 ]);
