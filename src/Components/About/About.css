@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 176px;
+}
+
+.about-info {
+    width: 775px;
+    margin-right: 70px;
+}
+
+.about-info h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 160%;
+    /* or 77px */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.about-info p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    /* or 31px */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+
+.about-info button {
+    padding: 19px 32px;
+    ont-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-transform: capitalize;
+
+    color: #25355c;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+}
+
+.about-info-2-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.about-info-2-child-Secured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Rewards h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.Rewards p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width:480px) {
+    .about {
+        flex-direction: column;
+        margin-bottom:30px;
+    }
+
+    .about-info {
+        width: 90%;
+        margin-right: 0px;
+        margin: 0px auto;
+    }
+
+    .about-info h1 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .about-info p {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .about-info button {
+        font-size: 12px;
+    }
+    .about-info-2-child {
+        flex-direction: column;
+        width: 90%;
+        margin-right: 0px;
+        margin: 0px auto;
+        align-items: start!important;
+    }
+    .Rewards h3 {
+       font-size: 12px;
+        margin-bottom: 8px;
+    }
+    
+    .Rewards p {
+       font-size: 12px;
+    }
+    .about-info-2-child-Secured {
+        flex-direction: column;
+        width: 90%;
+        margin-right: 0px;
+        margin: 0px auto;
+        padding: 0px;
+        align-items: start;
+    }
+}

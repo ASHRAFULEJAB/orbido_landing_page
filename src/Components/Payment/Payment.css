@@ -1,0 +1,199 @@
+.payment {
+    position:relative;
+    background: linear-gradient(110.53deg, #FFFFFF -265.46%, #14101D 96.75%);
+    box-shadow: 4px 6px 30px rgba(19, 36, 46, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: -50px;
+    z-index: 21;
+}
+
+.pament-child1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 24px;
+}
+
+.child1 {
+    margin-left: 10px;
+}
+
+.child1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    /* or 38px */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+}
+
+.child1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.child2 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 38px */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.child2 p span {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.child3 button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.01em;
+    border: 1px solid rgba(222, 249, 250, 1);
+    border-radius: 10px;
+    padding: 7px 10px;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.child4 button {
+    ont-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    letter-spacing: 0.01em;
+
+    color: #00030D;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    padding: 7px 46px;
+}
+
+.payment-2 {
+    padding: 20px;
+    background: linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 85.56%);
+    box-shadow: inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36);
+    backdrop-filter: blur(15.2011px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 9.12064px;
+    width: 335px;
+}
+
+.payment-2 h3 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}
+
+.payment-2-child2 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+
+    color: #FFFFFF;
+}
+
+.payment-2-child2 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.payment-2-child3 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #FFFFFF;
+}
+
+.billing h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    /* or 77px */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.billing p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    margin-bottom: 48px;
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width:480px) {
+    .payment {
+        
+        margin-bottom: 10px;
+    }
+    .billing h1 {
+        font-size: 28px;
+    }
+    .billing p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+}
